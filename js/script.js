@@ -28,5 +28,5 @@ function moe_get_sel_val(sel) {
 		}
 
 jQuery(document).ready(function() {
-jQuery('ul.items').prepend('<select id="moe_filter_drop" onchange="moe_get_sel_val(this)"><option>Sort by:</option><option value="alpha">Alphabetical</option><option value="date">Date</option></select>');
+jQuery('ul.items').before('<select id="moe_filter_drop" onchange="moe_get_sel_val(this)"><option>Sort by:</option><option value="alpha">Alphabetical</option><option value="date">Date</option></select>');
 })
